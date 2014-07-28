@@ -1,0 +1,3 @@
+[submodule "src/styleguide"]
+	path = src/styleguide
+	url = https://github.com/dennishn/nodes_styleguide.git

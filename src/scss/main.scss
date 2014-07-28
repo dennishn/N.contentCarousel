@@ -1,0 +1,51 @@
+// Nodes SCSS Framework
+// Avoid changing the order in which partials are loaded.
+
+// Make sure the charset is set appropriately
+@charset "UTF-8";
+// The all powerfull cross-browser resets
+@import "normalize";
+
+//Compass Imports
+//
+
+//Nodes Globals
+//Mixins and Functions must NEVER be dependant on variables
+//Variables can have their values computed by mixins
+@import
+    // Functions
+    /* ---> Do not delete this comment (functions) <--- */
+    // Mixins
+    /* ---> Do not delete this comment (mixins) <--- */
+    "variables";
+
+
+
+
+
+// Style Components (Uncomment the import statement below to get started)
+// Base
+/* ---> Do not delete this comment (base) <--- */
+// Elements
+/* ---> Do not delete this comment (elements) <--- */
+// Modules
+/* ---> Do not delete this comment (modules) <--- */
+// Components
+/* ---> Do not delete this comment (components) <--- */
+// UI-Blocks
+/* ---> Do not delete this comment (ui-blocks) <--- */
+// Layouts
+/* ---> Do not delete this comment (layouts) <--- */
+// Pages
+/* ---> Do not delete this comment (pages) <--- */
+// Plugins
+/* ---> Do not delete this comment (plugins) <--- */
+
+// Application Components (Uncomment the import statement below to get started)
+// Directives
+@import "../common/directives/N.contentCarousel/n.contentcarousel";
+/* ---> Do not delete this comment (Directives) <--- */
+// Services
+/* ---> Do not delete this comment (Services) <--- */
+// Providers
+/* ---> Do not delete this comment (Providers) <--- */
