@@ -8,7 +8,8 @@ app.controller('MainCtrl', function ($scope) {
 
     'use strict';
 
-    console.log('Controller ===  MainCtrl');
+    $scope.slides = ['alpha', 'beta', 'gamma'];
+
 });
 
 

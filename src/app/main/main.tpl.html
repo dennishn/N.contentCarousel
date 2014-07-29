@@ -2,5 +2,8 @@
 
 
 <content-carousel>
-    <slide></slide>
+    <slide ng-repeat="slide in slides track by $index">
+        {{slide}}-{{$index+1}}
+        <img src="http://lorempixel.com/400/200/sports/{{$index+1}}" alt="">
+    </slide>
 </content-carousel>
